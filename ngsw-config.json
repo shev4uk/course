@@ -30,7 +30,7 @@
   "dataGroups": [
     {
       "name": "api",
-      "urls": ["https://5fe21a2b7a94870017682081.mockapi.io/todos/**"],
+      "urls": ["https://5fe21a2b7a94870017682081.mockapi.io/**"],
       "cacheConfig": {
         "strategy": "freshness",
         "maxAge": "1h",
