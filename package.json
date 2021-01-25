@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server -p 8080 -c-1 dist/course",
+    "start": "node server.js",
     "start:prod": "ng build --prod && http-server -p 8080 -c-1 dist/course",
     "build": "ng build",
     "test": "ng test",
