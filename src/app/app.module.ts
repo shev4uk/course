@@ -23,7 +23,7 @@ import { environment } from '../environments/environment';
     HttpClientModule,
     MatButtonModule,
     MatIconModule,
-    ServiceWorkerModule.register('.ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production, registrationStrategy: 'registerImmediately' })
   ],
   providers: [],
   bootstrap: [AppComponent]
